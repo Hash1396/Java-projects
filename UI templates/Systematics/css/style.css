@@ -1,0 +1,181 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    color: rgb(43, 40, 40);
+}
+
+.container {
+    margin: auto;
+}
+
+/* Header */
+#main-header {
+    border-bottom: 1px solid rgb(90, 175, 90);
+}
+
+/* Navbar */
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s ease-out;
+}
+
+#navbar li.current a, #navbar a:hover {
+    color: rgb(90, 175, 90);
+    border-bottom: 2.8px solid rgb(90, 175, 90);
+    padding-bottom: 5px; 
+}
+
+/* Showcase */
+#showcase {
+    background: url('../images/showcase.jpg') no-repeat;
+    background-blend-mode: lighten;
+    border: 1px solid rgb(90, 175, 90);
+    margin-bottom: 30px;
+    font-size: 2.7rem;
+}
+
+#showcase .row {
+    height: 550px;
+}
+
+/* Features */
+#features h1 {
+    font-size: 42px;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+#features p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#features .fa {
+    font-size: 60px;
+    color: rgb(90, 175, 90);
+}
+
+#features .card-item {
+    border-top: 1px dotted rgb(90, 175, 90);
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+/* Company */
+#company {
+    background: url("../images/showcase.jpg") no-repeat center left;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#company h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul {
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"] {
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+#company button {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 0.4rem 1.8rem;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #444;
+}
+
+#company button:hover {
+    background: #444;
+}
+
+/* Footer */
+#main-footer {
+    background: #444;
+    color: #fff;
+    padding: 0;
+}
+
+/* About Page */
+.about h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px dotted rgb(90, 175, 90);
+}
+
+/* Page */
+#page {
+    margin-bottom: 40px;
+}
+
+/* Services */
+.services ul {
+    list-style: none;
+}
+
+.services ul li {
+    border-top: 1px dotted rgb(90, 175, 90);
+}
+
+
+/* Utility Classes*/
+.primary-text {
+    color: rgb(90, 175, 90);
+}
+
+.primary-background {
+    background: rgb(90, 175, 90);
+}
+
+.underline-green {
+    border-bottom: 3px solid rgb(90, 175, 90);
+}
+
+/* Media Queries */
+@media(max-width: 900px) {
+    #showcase h1 {
+        font-size: 2.8rem;
+    }
+
+    #showcase p {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 600px) {
+    #showcase h1 {
+        font-size: 2.4rem;
+    }
+
+    #showcase p {
+        font-size: 1.7rem;
+    }
+}
